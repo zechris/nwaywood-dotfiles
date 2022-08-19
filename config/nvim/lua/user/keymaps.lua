@@ -29,10 +29,10 @@ wk.register({
 }, { prefix = "<leader>"})
 
 -- Resize with arrows
-keymap("n", "<Up>", ":resize +2<CR>", opts)
-keymap("n", "<Down>", ":resize -2<CR>", opts)
-keymap("n", "<Left>", ":vertical resize -2<CR>", opts)
-keymap("n", "<Right>", ":vertical resize +2<CR>", opts)
+-- keymap("n", "<Up>", ":resize +2<CR>", opts)
+-- keymap("n", "<Down>", ":resize -2<CR>", opts)
+-- keymap("n", "<Left>", ":vertical resize -2<CR>", opts)
+-- keymap("n", "<Right>", ":vertical resize +2<CR>", opts)
 
 -- faster window splitting
 keymap("n", "<C-s>", ":split<CR>", opts)
