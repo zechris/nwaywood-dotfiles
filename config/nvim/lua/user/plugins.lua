@@ -111,6 +111,7 @@ return packer.startup(function(use)
   use "williamboman/nvim-lsp-installer" -- wrapper around nvim-lspconfig for easy installation
   use "kosayoda/nvim-lightbulb" -- lightbulb for code actions
   use({'scalameta/nvim-metals', requires = { "nvim-lua/plenary.nvim" }})
+  use "derekwyatt/vim-scala" -- only really using the https://github.com/derekwyatt/vim-scala#sorting-of-import-statements
   
   -- cmp plugins
   --------------

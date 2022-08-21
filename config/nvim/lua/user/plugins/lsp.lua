@@ -73,6 +73,7 @@ wk.register({
   l = {
 	  name = "LSP",
 	  f = { "<cmd>lua vim.lsp.buf.formatting()<CR>", "Format" },
+	  s = { "<cmd>SortScalaImports<CR>", "Sort Imports" },
 	  a = { "<cmd>lua vim.lsp.buf.code_action()<CR>", "Actions" },
 	  d = { "<cmd>lua vim.diagnostic.setloclist()<CR>", "Diagnostics" },
 	  r = { "<cmd>lua vim.lsp.buf.rename()<CR>", "Rename Variable" },
